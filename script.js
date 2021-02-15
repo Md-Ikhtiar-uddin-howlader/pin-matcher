@@ -64,7 +64,7 @@ document.getElementById("submit").addEventListener("click",function(){
             remainingTry = document.getElementById("try").innerText = remainingTry - 1;
 
             if(remainingTry == 0){
-                alert("This s your last chance.")
+                alert("This is your last chance.")
             }
             else if(remainingTry<0){
                 document.getElementById("finishTry").innerText = "please try later";
